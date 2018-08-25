@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			-webkit-animation-name: example;
+			/*si no le ponemos tiempo a la animacion se pondra por defecto 0 segundos*/
+			-webkit-animation-duration: 4s;
+		}
+		@-webkit-keyframes example{
+			0%{background-color: red;}
+			25%{background-color: yellow;}
+			50%{background-color: blue;}
+			100%{background-color: green;}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
